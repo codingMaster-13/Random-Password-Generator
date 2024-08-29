@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+body{
+    background: rgb(21, 20, 37);
+    font-family: "PT Sans";
+}
+.container{
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    border-radius: .5em;
+}
+/* header of container */
+.container h1{
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container .box{
+    widtH: 80%;
+    margin: auto;
+}
+/* input box of container */
+.container .box .inputBox{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.container .box .inputBox input{
+    widtH: 100%;
+    padding: 13px;
+    color: black;
+    background: white;
+    border: none;
+    border-radius: 5px;
+}
+.container .box .inputBox button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+/* setting of container */
+.container .box .settings{
+    font-size: 20px;
+    line-height: 1.6;
+    widtH: 98%;
+    margin: auto;
+}
+.container .box .settings input{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+/* length box of setting */
+.container .box .settings .lengthBox{
+    widtH: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.container .box .settings .lengthBox span{
+    font-size: 20px;
+}
+.container .box .settings .lengthBox input{
+    widtH: 100%;
+    cursor: pointer;
+}
+/* alphabelt of setting */
+.container .box .settings .capital, .small, .number, .symbol{
+    widtH: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+/* button of container */
+.container .box > button{
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "PT Sans";
+    background: rgb(0, 132, 255);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.container .box > button:hover{
+    background: rgb(0, 55, 175)
+}
