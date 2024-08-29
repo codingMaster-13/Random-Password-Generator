@@ -36,5 +36,4 @@ generateButton.onclick = () => {
     }
   });
   inputBox.input.value = generatePassword(lenInput.value, allCharacter);
-  DefaultPassword = generateButton(lenInput.value, allCharacter);
 };
